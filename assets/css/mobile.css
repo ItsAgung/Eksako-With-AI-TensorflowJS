@@ -1,0 +1,214 @@
+@media (max-width: 992px) {
+
+    /* header */
+    #header .navbar {
+        background-color: black;
+    }
+
+    #header .nav-link {
+        color: rgba(255, 255, 255, 255);
+        text-transform: uppercase
+    }
+
+    #header .nav-link:hover::after {
+        content: '';
+        display: block;
+        width: 50%;
+        border-bottom: 3px solid white;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* Banner */
+    #Banner {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.411), black), url(../Assets/bg-banner.png);
+        width: 100%;
+        height: 766px;
+        color: white;
+        padding-top: 289px;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    #Banner h1 {
+        font-weight: bold;
+        color: white;
+    }
+
+    #Banner p {
+        font-weight: 300;
+        line-height: 25px;
+    }
+
+    /* visi-misi */
+    #visi-misi {
+        margin-top: -10rem;
+    }
+
+    #visi-misi .bg-visi-misi {
+        background-color: white;
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        box-shadow: 0px 4px 15px rgb(0, 0, 0, 0.5);
+        border-radius: 20px;
+        color: brown;
+    }
+
+    /* ours service */
+    #ours-service {
+        margin-top: -150px;
+        padding-top: 160px;
+        background: #F4EDED;
+        height: 727px;
+        width: 100%;
+    }
+
+    #ours-service span,
+    .ours-patners span {
+        font-weight: bold;
+        color: #f8830e;
+    }
+
+    #ours-service p {
+        color: #ec3f3f;
+    }
+
+    #ours-service .bg-service {
+        width: 100%;
+        height: auto;
+        /* background: white: */
+        border-radius: 10px;
+        padding: 40px;
+        margin-top: 50px;
+    }
+
+    #ours-service a {
+        text-decoration: none;
+        color: black;
+    }
+
+    #ours-service .bg-service:hover {
+        background-color: white;
+        box-shadow: 0px 9px 30px #dec6c6;
+        border-radius: 10px;
+    }
+
+    #ours-service .bg-service h1 {
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #ours-service .bg-service p {
+        font-size: 15px;
+    }
+
+    /* about me */
+    #about-me {
+        margin-top: 50px;
+    }
+
+    #about-me .img-person1 {
+        width: 366px;
+        height: 504px;
+    }
+
+    #about-me .deskripsi h1 {
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        color: #ec3f3f;
+    }
+
+    #about-me .deskripsi p {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 27px;
+        color: #a87878;
+    }
+
+    #about-me .deskripsi .btn {
+        font-weight: 158px;
+        height: 44px;
+        background-image: #ff7300;
+        border-radius: 10px;
+        color: white;
+    }
+
+    #about-me .deskripsi .btn:hover {
+        background: rgb(129, 150, 13);
+    }
+
+    #about-me .deskripsi {
+        margin-top: 80px;
+    }
+
+    /* kenapa snapytools */
+    #kenapa-snapytools {
+        margin-top: 50px;
+        background-color: #82D0E5;
+    }
+
+    #kenapa-snapytools .deskripsi1 h1 {
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 40px;
+        color: white;
+        background-color: #82D0E5;
+    }
+
+    #kenapa-snapytools .deskripsi1 p {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 27px;
+        color: white;
+        background-color: #82D0E5;
+    }
+
+    #kenapa-snapytools .gmbr-person2 {
+        width: 485px;
+        height: 475px;
+        background-color: #82D0E5;
+    }
+
+    /* akhir kenapa snapytools */
+
+    /* ours partners */
+    #our-partners {
+        margin-top: 85px;
+    }
+
+    #our-partners span {
+        color: #F4B512;
+        font-weight: bold;
+    }
+
+    #our-partners .sponsor {
+        width: 293px;
+        height: 100px;
+        margin-top: 85px;
+    }
+
+    /* maps */
+    #maps {
+        margin-top: 85px;
+    }
+
+
+    #footer {
+        background-color: black;
+        width: 100%;
+        height: 468px;
+        font-size: small;
+        color: white;
+        padding-top: 30px;
+    }
+
+    #footer .img-footer {
+        margin-top: 85px;
+        width: 250px;
+        height: auto;
+    }
+}

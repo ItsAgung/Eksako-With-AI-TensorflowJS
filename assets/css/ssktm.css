@@ -1,0 +1,17 @@
+.btn.bg-black {
+	background-color: blue;
+	color: white;
+	width: 100px;
+}
+
+.btn.bg-black:hover {
+	background-color: rgb(0, 153, 255);
+	color: white;
+	width: 100px;
+}
+
+.nm p {
+	color: white;
+	font-weight: bold;
+}
+
